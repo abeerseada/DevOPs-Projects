@@ -1,0 +1,22 @@
+---
+galaxy_info:
+  role_name: fullstack_deploy
+  namespace: abeerseada
+  author: Abeer A. Mohamed
+  description: Deploy a fullstack web app with Nginx, Node.js and DB.
+  license: MIT
+  min_ansible_version: "2.9"
+  platforms:
+    - name: Ubuntu
+      versions:
+        - focal
+        - jammy
+  galaxy_tags:
+    - fullstack
+    - deploy
+    - webapp
+    - nginx
+    - nodejs
+    - database
+
+dependencies: []
