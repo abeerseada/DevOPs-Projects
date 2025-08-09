@@ -37,8 +37,10 @@ FROM alpine:3.22 AS prod
 
 WORKDIR /app
 
+RUN adduser -D myuser
 
-COPY --from=builder /app/my-app .
+COPY --from=builder --chown=myuser:myuser /app/my-app .
+USER myuser
 
 CMD ["./my-app"]
 EXPOSE 8080
