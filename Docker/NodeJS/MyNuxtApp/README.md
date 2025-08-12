@@ -49,20 +49,6 @@ npm run preview
 
 ---
 
-## Environment Variables
-
-You can manage environment variables via `.env` files or Docker environment settings.
-
-Common environment variables include:
-
-```env
-NUXT_PUBLIC_API_BASE=https://api.example.com
-API_SECRET=your-secret-key
-NUXT_TELEMETRY_DISABLED=1
-```
-
----
-
 ## Docker Usage
 
 ### Build Docker Image
