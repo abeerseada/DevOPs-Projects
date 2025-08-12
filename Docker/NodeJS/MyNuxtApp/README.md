@@ -1,5 +1,3 @@
-Sure! Here's a clean, professional README in English tailored for GitHub. I'll also suggest a project name and category for your repo.
-
 
 # Nuxt3 Starter App
 
